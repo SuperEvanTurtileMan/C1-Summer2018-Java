@@ -1,0 +1,14 @@
+#headerArea {
+	background: linear-gradient(#cce6ff, #ffffff);
+	height:100px;
+	width:100%;
+}
+
+#headerText {
+	font-size:30px;
+	position:relative;
+	left:20px;
+	top:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}

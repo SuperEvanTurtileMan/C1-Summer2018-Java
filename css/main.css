@@ -1,0 +1,39 @@
+html {overflow: -moz-scrollbars-vertical;}
+
+body {
+    margin:0;
+}
+
+.headerArea {
+    display:flex;
+    flex-direction:column;
+}
+
+.className {
+    font-size:55px;
+    padding-left:20px;
+    font-family:'Arial Black', Gadget, sans-serif;
+}
+
+.headerNavbar {
+    display:flex;
+    flex-direction:row;
+    padding-left:10px;
+}
+
+button {
+    background-color:white;
+    font-size:20px;
+    margin-right:20px;
+    border:none;
+}
+
+button:hover {
+    background-color:#E0E0E0;
+}
+
+.headerDivider {
+    height:1px;
+    background:#717171;
+    border-bottom:1px solid #313030;
+}

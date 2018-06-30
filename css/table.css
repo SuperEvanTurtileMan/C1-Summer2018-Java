@@ -1,0 +1,71 @@
+.webpageTable {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.tableRow {
+    width:75%;
+    display:flex;
+    flex-direction:row;
+}
+
+.headerRow {
+    width:75%;
+    display:flex;
+    flex-direction:row;
+    background:linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+}
+
+.headerEvalCell {
+    width:50%;
+    font-style:bold;
+    font-size:20px;
+    text-align:center;
+}
+
+.tableEvalCell {
+    width:50%;
+    font-style:italic;
+    text-align:center;
+    font-size:15px;
+}
+
+.tableEvalCell:hover {
+    background-color:grey;
+}
+
+.headerCell {
+    width:20%;
+    font-style:italic;
+    font-size:25px;
+    text-align:center;
+}
+
+.tableCell {
+    width:20%;
+    font-size:20px;
+    text-align:center;
+    padding-top:15px;
+}
+
+.headerCellExtend {
+    width:50%;
+    font-size:25px;
+    text-align:center;
+}
+
+.tableCellExtend {
+    width:50%;
+    font-size:20px;
+    text-align:center;
+    padding-top:15px;
+}
+
+.tableCell:hover {
+    background-color:grey;
+}
+
+.tableCellExtend:hover {
+    background-color:grey;
+}
